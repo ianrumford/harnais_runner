@@ -1,0 +1,11 @@
+%{
+  "earmark": {:hex, :earmark, "1.2.4", "99b637c62a4d65a20a9fb674b8cffb8baa771c04605a80c911c4418c69b75439", [:mix], []},
+  "ex_doc": {:hex, :ex_doc, "0.18.3", "f4b0e4a2ec6f333dccf761838a4b253d75e11f714b85ae271c9ae361367897b7", [:mix], [{:earmark, "~> 1.1", [hex: :earmark, optional: false]}]},
+  "harnais": {:hex, :harnais, "1.0.0", "984ddefaba87bdeafad84c8e3bce806f1100fc004f50007b36fdd8b940047be8", [:mix], [], "hexpm"},
+  "harnais_error": {:hex, :harnais_error, "0.1.0", "65db94d618fcbd3b9202ba31c478ca041596165f8889a109966471272cb7243f", [:mix], [{:harnais, "~> 1.0.0", [hex: :harnais, repo: "hexpm", optional: false]}, {:plymio_codi, "~> 0.2.0", [hex: :plymio_codi, repo: "hexpm", optional: false]}], "hexpm"},
+  "plymio_codi": {:hex, :plymio_codi, "0.2.0", "7e6cf321bd045e54a27f259b7ea80c75c2063db8a3637d57aada4ce8d0f46a2d", [:mix], [{:plymio_vekil, "~> 0.1.0", [hex: :plymio_vekil, repo: "hexpm", optional: false]}], "hexpm"},
+  "plymio_fontais": {:hex, :plymio_fontais, "0.2.0", "fb82a3913a811d2da2364f293e55279a42737450729880c2ad5c3cd3b1bbd14b", [:mix], [], "hexpm"},
+  "plymio_funcio": {:hex, :plymio_funcio, "0.2.0", "6d7155d9dbba82cd6a469285c3a89c4ce1f2ef72dce2a2ce2222e691a42abf13", [:mix], [{:plymio_fontais, "~> 0.2.0", [hex: :plymio_fontais, repo: "hexpm", optional: false]}], "hexpm"},
+  "plymio_option": {:hex, :plymio_option, "0.3.0", "59e0637dd03ab3db3322b4c913e27e6d9e5e3ed6bc782fc5f56de486471adb5e", [:mix], []},
+  "plymio_vekil": {:hex, :plymio_vekil, "0.1.0", "128825fcd823384ee101ca4c9b38e4b6a20fafd469c78cd55f9f0885e96e09b2", [:mix], [{:plymio_funcio, "~> 0.2.0", [hex: :plymio_funcio, repo: "hexpm", optional: false]}], "hexpm"},
+}
